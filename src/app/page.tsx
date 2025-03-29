@@ -83,6 +83,7 @@ export default function GoogleDriveClone() {
                   <div className="col-span-6 flex items-center">
                     {file.type === "folder" ? (
                       <button
+                      type="button"
                         onClick={() => handleFolderClick(file.id)}
                         className="flex items-center text-gray-100 hover:text-blue-400"
                       >
