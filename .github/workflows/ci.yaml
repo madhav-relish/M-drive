@@ -20,4 +20,4 @@ jobs:
         run: pnpm typecheck
 
       - name: Biome
-        run: pnpm biome check --apply
+        run: pnpm biome check --write
